@@ -68,6 +68,12 @@
       <DependentUpon>ArtistRepository.feature</DependentUpon>
     </Compile>
     <Compile Include="ArtistRepositorySteps.cs" />
+    <Compile Include="ConsoleCommandHandler.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsoleCommandHandler.feature</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleCommandHandlerSteps.cs" />
     <Compile Include="PartnerRepository_FeatureSteps.cs" />
     <Compile Include="PartnerRepository.feature.cs">
       <AutoGen>True</AutoGen>
@@ -81,6 +87,10 @@
     <None Include="ArtistRepository.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ArtistRepository.feature.cs</LastGenOutput>
+    </None>
+    <None Include="ConsoleCommandHandler.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ConsoleCommandHandler.feature.cs</LastGenOutput>
     </None>
     <None Include="Default.srprofile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

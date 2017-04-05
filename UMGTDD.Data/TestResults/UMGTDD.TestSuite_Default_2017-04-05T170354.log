@@ -1,0 +1,88 @@
+﻿VS filter: testpath:TestAssembly:UMGTDD.TestSuite/Feature:ConsoleCommandHandler/Scenario:ITunes%c2%a01st%c2%a0March%c2%a02012
+Discovering target: Default
+Discovering tests from assembly: D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UMGTDD.TestSuite/Default - 
+#1: Default - 
+#2: UMGTDD.TestSuite - 
+#6: ConsoleCommandHandler - 
+#7: ITunes 1st March 2012 - TestAssembly:UMGTDD.TestSuite/Feature:ConsoleCommandHandler/Scenario:ITunes%c2%a01st%c2%a0March%c2%a02012
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UMGTDD.TestSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jaiho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have entered 'ITunes 1st March 2012' into the console
+Thread#0:T:done: ConsoleCommandHandlerSteps.GivenIHaveEnteredIntoTheConsole("ITunes 1st March ...") (0.0s)
+Thread#0:B:Then the resultcount should be 4
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheResultcountShouldBe(4) (0.0s)
+Thread#0:B:And the first result should be "Monkey Claw|Black Mountain|digital download|1st Feb 2012| "
+Thread#0:T:error: Assert.AreEqual failed. Expected:<Monkey Claw|Motor Mouth|digital download, streaming|3/1/2011 12:00:00 AM|>. Actual:<Monkey Claw|Black Mountain|digital download|1st Feb 2012| >. 
+Thread#0:B:And the second result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the third result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the fourth result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Failed within 0.2331244 seconds
+Thread#0: Test #7/1 is started on thread #0
+Thread#0:B:Given I have entered 'ITunes 1st March 2012' into the console
+Thread#0:T:done: ConsoleCommandHandlerSteps.GivenIHaveEnteredIntoTheConsole("ITunes 1st March ...") (0.0s)
+Thread#0:B:Then the resultcount should be 4
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheResultcountShouldBe(4) (0.0s)
+Thread#0:B:And the first result should be "Monkey Claw|Black Mountain|digital download|1st Feb 2012| "
+Thread#0:T:error: Assert.AreEqual failed. Expected:<Monkey Claw|Motor Mouth|digital download, streaming|3/1/2011 12:00:00 AM|>. Actual:<Monkey Claw|Black Mountain|digital download|1st Feb 2012| >. 
+Thread#0:B:And the second result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the third result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the fourth result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/1 is finished on thread #0 as Failed within 0.0145386 seconds
+Thread#0: Test #7/2 is started on thread #0
+Thread#0:B:Given I have entered 'ITunes 1st March 2012' into the console
+Thread#0:T:done: ConsoleCommandHandlerSteps.GivenIHaveEnteredIntoTheConsole("ITunes 1st March ...") (0.0s)
+Thread#0:B:Then the resultcount should be 4
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheResultcountShouldBe(4) (0.0s)
+Thread#0:B:And the first result should be "Monkey Claw|Black Mountain|digital download|1st Feb 2012| "
+Thread#0:T:error: Assert.AreEqual failed. Expected:<Monkey Claw|Motor Mouth|digital download, streaming|3/1/2011 12:00:00 AM|>. Actual:<Monkey Claw|Black Mountain|digital download|1st Feb 2012| >. 
+Thread#0:B:And the second result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the third result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the fourth result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011| "
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #7/2 is finished on thread #0 as Failed within 0.0070534 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

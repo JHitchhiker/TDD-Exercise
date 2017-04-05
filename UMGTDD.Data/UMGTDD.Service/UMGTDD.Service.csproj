@@ -41,9 +41,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions.cs" />
-    <Compile Include="CommandHandler.cs" />
+    <Compile Include="InputCommand.cs" />
     <Compile Include="InputHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UMGTDD.DAL\UMGTDD.DAL.csproj">
+      <Project>{4BA96C02-D292-43C0-8B9C-03C6B307F664}</Project>
+      <Name>UMGTDD.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UMGTDD.Data\UMGTDD.Data.csproj">
+      <Project>{F19AC904-9C70-4532-8A55-BF239025EA81}</Project>
+      <Name>UMGTDD.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

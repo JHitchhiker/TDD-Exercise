@@ -3,3 +3,7 @@ D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.Service.pdb
 D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\obj\Debug\UMGTDD.Service.csprojResolveAssemblyReference.cache
 D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\obj\Debug\UMGTDD.Service.dll
 D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\obj\Debug\UMGTDD.Service.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.DAL.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.Data.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.DAL.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.Data.pdb

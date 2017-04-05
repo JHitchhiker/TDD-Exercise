@@ -24,13 +24,23 @@ namespace UMGTDD.DAL
         public MusicArtist GetArtistFromSong(string songName)
         {
             LoadArtists();
-            return artists.Where(e => e.Track == songName).FirstOrDefault();
+            return artists.Where(e => e.Title == songName).FirstOrDefault();
         }
 
         public List<MusicArtist> GetArtistsFromUsage(string usage)
         {
             LoadArtists();
             return artists.Where(e => e.Usage.Contains(usage)).ToList();
+        }
+
+        public List<MusicArtist> GetArtistsFromUsageForEffectiveDate(string usage, DateTime effectiveDate)
+        {
+            var artists = GetArtistsFromUsage(usage);
+            return artists.Where(e => e.StartDate <= effectiveDate
+                                  && (e.EndDate == null || e.EndDate >= effectiveDate))
+                          .OrderBy(e => e.Name)
+                          .ThenBy(t => t.Title)
+                          .ToList();
         }
     }
 }

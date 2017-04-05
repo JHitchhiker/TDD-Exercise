@@ -28,10 +28,17 @@ namespace UMGTDD.DAL
             return partners.Where(e => e.Name == partnerName).FirstOrDefault();
         }
 
+        public string GetPartnerUsage(string partnerName)
+        {
+            var result = GetPartner(partnerName);
+            return result.Usage;
+        }
+
         public List<DistributionPartner> GetPartnerByUsage(string usage)
         {
             LoadPartners();
             return partners.Where(e => e.Usage == usage).ToList();
         }
+
     }
 }

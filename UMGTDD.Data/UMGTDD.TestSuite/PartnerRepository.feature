@@ -6,8 +6,12 @@
 
 @mytag
 Scenario: Get ITunes
-	Given I have a textfile "d:\partners.txt"
-	When the user enters 'ITunes' 
+	Given I have a textfile with partners "d:\partners.txt"
+	When the user enters partner 'ITunes' 
 	Then the result should be "digital download"
 	
-	
+Scenario: Get Digital Download
+	Given I have a textfile with partners "d:\partners.txt"
+	When the user enters partner usage 'digital download' 
+	Then the partner should be "ITunes"
+		

@@ -1,11 +1,15 @@
 ﻿Feature: ArtistRepository
-	In order to avoid silly mistakes
-	As a math idiot
-	I want to be told the sum of two numbers
+	In order to find Music Artists
+	As a user
+	I need to read a file and return the artist information found
 
 @mytag
-Scenario: Add two numbers
-	Given I have entered 50 into the calculator
-	And I have entered 70 into the calculator
-	When I press add
-	Then the result should be 120 on the screen
+Scenario: Get Artist By Song
+	Given I have a textfile with artists "d:\musicartists.txt"
+	When I enter song "Motor Mouth"
+	Then the artist should be "Monkey Claw"
+
+Scenario: Get Artist By Usage
+	Given I have a textfile with artists "d:\musicartists.txt"
+	When I enter usage "digital download"
+	Then the artist count should be 6

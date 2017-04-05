@@ -1,0 +1,71 @@
+﻿Discovering target: Default
+Discovering tests from assembly: D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UMGTDD.TestSuite/Default - 
+#1: Default - 
+#2: UMGTDD.TestSuite - 
+#3: ArtistRepository - 
+#6: Partner_Repository - 
+#4: Get Artist By Song - TestAssembly:UMGTDD.TestSuite/Feature:ArtistRepository/Scenario:Get+Artist+By+Song
+#5: Get Artist By Usage - TestAssembly:UMGTDD.TestSuite/Feature:ArtistRepository/Scenario:Get+Artist+By+Usage
+#7: Get ITunes - TestAssembly:UMGTDD.TestSuite/Feature:Partner_Repository/Scenario:Get+ITunes
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UMGTDD.TestSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jaiho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I have a textfile with artists "d:\musicartists.txt"
+Thread#0:T:done: ArtistRepositorySteps.GivenIHaveATextfileWithArtists("d:\musicartists.txt") (0.0s)
+Thread#0:B:When I enter song "Motor Mouth"
+Thread#0:T:done: ArtistRepositorySteps.WhenIEnterSong("Motor Mouth") (0.0s)
+Thread#0:B:Then the artist should be "Monkey Claw"
+Thread#0:T:done: ArtistRepositorySteps.ThenTheArtistShouldBe("Monkey Claw") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.1178131 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have a textfile with artists "d:\musicartists.txt"
+Thread#0:T:done: ArtistRepositorySteps.GivenIHaveATextfileWithArtists("d:\musicartists.txt") (0.0s)
+Thread#0:B:When I enter usage "digital download"
+Thread#0:T:done: ArtistRepositorySteps.WhenIEnterUsage("digital download") (0.0s)
+Thread#0:B:Then the artist count should be 6
+Thread#0:T:done: ArtistRepositorySteps.ThenTheArtistCountShouldBe(6) (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.006541 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have a textfile with partners "d:\partners.txt"
+Thread#0:T:done: PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners("d:\partners.txt") (0.0s)
+Thread#0:B:When the user enters partner 'ITunes'
+Thread#0:T:done: PartnerRepository_FeatureSteps.WhenTheUserEntersITunes("ITunes") (0.0s)
+Thread#0:B:Then the result should be "digital download"
+Thread#0:T:done: PartnerRepository_FeatureSteps.ThenTheResultShouldBe("digital download") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.006016 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 3
+Succeeded: 3
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

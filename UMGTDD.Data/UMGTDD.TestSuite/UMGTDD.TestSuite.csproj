@@ -62,24 +62,34 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ITunes_FeatureSteps.cs" />
-    <Compile Include="SpecFlowFeature1.feature.cs">
+    <Compile Include="ArtistRepository.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
+      <DependentUpon>ArtistRepository.feature</DependentUpon>
+    </Compile>
+    <Compile Include="ArtistRepositorySteps.cs" />
+    <Compile Include="PartnerRepository_FeatureSteps.cs" />
+    <Compile Include="PartnerRepository.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PartnerRepository.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ArtistRepository.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ArtistRepository.feature.cs</LastGenOutput>
+    </None>
     <None Include="Default.srprofile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
-    <None Include="SpecFlowFeature1.feature">
+    <None Include="PartnerRepository.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
+      <LastGenOutput>PartnerRepository.feature.cs</LastGenOutput>
     </None>
     <None Include="SpecRunTestProfile.xsd">
       <SubType>Designer</SubType>

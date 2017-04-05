@@ -10,6 +10,7 @@ namespace UMGTDD.DAL
     public class PartnerRepository
     {
         List<DistributionPartner> partners;
+
         private List<string> GetFromFile()
         {
             var result = FileReader.ReadFile(@"d:\partners.txt");
@@ -25,6 +26,12 @@ namespace UMGTDD.DAL
         {
             LoadPartners();
             return partners.Where(e => e.Name == partnerName).FirstOrDefault();
+        }
+
+        public List<DistributionPartner> GetPartnerByUsage(string usage)
+        {
+            LoadPartners();
+            return partners.Where(e => e.Usage == usage).ToList();
         }
     }
 }

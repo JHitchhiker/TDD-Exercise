@@ -43,6 +43,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="FileReader.cs" />
+    <Compile Include="ArtistRepository.cs" />
     <Compile Include="PartnerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

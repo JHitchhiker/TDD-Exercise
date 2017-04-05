@@ -1,0 +1,129 @@
+﻿Discovering target: Default
+Discovering tests from assembly: D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UMGTDD.TestSuite/Default - 
+#1: Default - 
+#2: UMGTDD.TestSuite - 
+#3: ArtistRepository - 
+#5: Partner_Repository - 
+#4: Get Artist - TestAssembly:UMGTDD.TestSuite/Feature:ArtistRepository/Scenario:Get+Artist
+#6: Get ITunes - TestAssembly:UMGTDD.TestSuite/Feature:Partner_Repository/Scenario:Get+ITunes
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UMGTDD.TestSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jaiho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I have a textfile "d:\musicartists.txt"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have a textfile "d:\musicartists.txt"': ArtistRepositorySteps.GivenIHaveATextfileWithPartners(String), PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners(String)
+Thread#0:B:When I enter "Motor Mouth"
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [When(@"I enter ""(.*)""")]
+Thread#0:T:public void WhenIEnter(string p0)
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then the result should be "Monkey Claw"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be "Monkey Claw"': ArtistRepositorySteps.ThenTheResultShouldBe(String), PartnerRepository_FeatureSteps.ThenTheResultShouldBe(String)
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.1433499 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have a textfile "d:\musicartists.txt"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have a textfile "d:\musicartists.txt"': ArtistRepositorySteps.GivenIHaveATextfileWithPartners(String), PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners(String)
+Thread#0:B:When I enter "Motor Mouth"
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [When(@"I enter ""(.*)""")]
+Thread#0:T:public void WhenIEnter(string p0)
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then the result should be "Monkey Claw"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be "Monkey Claw"': ArtistRepositorySteps.ThenTheResultShouldBe(String), PartnerRepository_FeatureSteps.ThenTheResultShouldBe(String)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.006001 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have a textfile "d:\musicartists.txt"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have a textfile "d:\musicartists.txt"': ArtistRepositorySteps.GivenIHaveATextfileWithPartners(String), PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners(String)
+Thread#0:B:When I enter "Motor Mouth"
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [When(@"I enter ""(.*)""")]
+Thread#0:T:public void WhenIEnter(string p0)
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:Then the result should be "Monkey Claw"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be "Monkey Claw"': ArtistRepositorySteps.ThenTheResultShouldBe(String), PartnerRepository_FeatureSteps.ThenTheResultShouldBe(String)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.006515 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have a textfile "d:\partners.txt"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have a textfile "d:\partners.txt"': ArtistRepositorySteps.GivenIHaveATextfileWithPartners(String), PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners(String)
+Thread#0:B:When the user enters 'ITunes'
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When the user enters 'ITunes'': ArtistRepositorySteps.WhenTheUserEntersITunes(String), PartnerRepository_FeatureSteps.WhenTheUserEntersITunes(String)
+Thread#0:B:Then the result should be "digital download"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be "digital download"': ArtistRepositorySteps.ThenTheResultShouldBe(String), PartnerRepository_FeatureSteps.ThenTheResultShouldBe(String)
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.0055353 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:B:Given I have a textfile "d:\partners.txt"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have a textfile "d:\partners.txt"': ArtistRepositorySteps.GivenIHaveATextfileWithPartners(String), PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners(String)
+Thread#0:B:When the user enters 'ITunes'
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When the user enters 'ITunes'': ArtistRepositorySteps.WhenTheUserEntersITunes(String), PartnerRepository_FeatureSteps.WhenTheUserEntersITunes(String)
+Thread#0:B:Then the result should be "digital download"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be "digital download"': ArtistRepositorySteps.ThenTheResultShouldBe(String), PartnerRepository_FeatureSteps.ThenTheResultShouldBe(String)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0.0040098 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:B:Given I have a textfile "d:\partners.txt"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Given I have a textfile "d:\partners.txt"': ArtistRepositorySteps.GivenIHaveATextfileWithPartners(String), PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners(String)
+Thread#0:B:When the user enters 'ITunes'
+Thread#0:T:binding error: Ambiguous step definitions found for step 'When the user enters 'ITunes'': ArtistRepositorySteps.WhenTheUserEntersITunes(String), PartnerRepository_FeatureSteps.WhenTheUserEntersITunes(String)
+Thread#0:B:Then the result should be "digital download"
+Thread#0:T:binding error: Ambiguous step definitions found for step 'Then the result should be "digital download"': ArtistRepositorySteps.ThenTheResultShouldBe(String), PartnerRepository_FeatureSteps.ThenTheResultShouldBe(String)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0.0040415 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

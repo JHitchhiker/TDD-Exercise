@@ -21,5 +21,36 @@ namespace UMGTDD.DAL
             }
             return result;
         }
+
+        public static List<MusicArtist> ToArtist(this List<string> records)
+        {
+            var result = new List<MusicArtist>();
+            foreach (var record in records)
+            {
+                string[] recordLayout = record.Split('|');
+                var artist = new MusicArtist();
+                artist.Name = recordLayout[0];
+                artist.Track = recordLayout[1];
+                artist.Usage = recordLayout[2];
+                artist.StartDate = recordLayout[3].ToDate();
+                artist.EndDate = recordLayout[3].ToDate();
+                result.Add(artist);
+            }
+            return result;
+        }
+
+        public static DateTime? ToDate(this string value)
+        {
+            if (value == "")
+            {
+                return null;
+            }
+            value = value.Replace("st", "")
+                         .Replace("nd", "")
+                         .Replace("rd", "")
+                         .Replace("th", "");
+
+            return Convert.ToDateTime(value);
+        }
     }
 }

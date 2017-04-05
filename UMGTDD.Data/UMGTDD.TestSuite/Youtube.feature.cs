@@ -85,6 +85,32 @@ this.ScenarioSetup(scenarioInfo);
             this.ScenarioCleanup();
         }
         
+        [TechTalk.SpecRun.ScenarioAttribute("YouTube 27th Dec 2012", SourceLine=12)]
+        public virtual void YouTube27ThDec2012()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("YouTube 27th Dec 2012", ((string[])(null)));
+#line 13
+this.ScenarioSetup(scenarioInfo);
+#line 14
+ testRunner.Given("\'YouTube 27th Dec 2012\' was entered into the console", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 15
+ testRunner.Then("the December_resultcount should be 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 16
+ testRunner.And("the firstdecemeberresult should be \"Monkey Claw|Christmas Special|streaming|25th " +
+                    "Dec 2012|31st Dec 2012\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 17
+ testRunner.And("the seconddecemeberresult should be \"Monkey Claw|Iron Horse|streaming|1st Jun 201" +
+                    "2|\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 18
+ testRunner.And("the thirddecemeberresult should be \"Monkey Claw|Motor Mouth|streaming|1st Mar 201" +
+                    "1|\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 19
+ testRunner.And("the fourthdecemeberresult should be \"Tinie Tempah|Frisky (Live from SoHo)|streami" +
+                    "ng|1st Feb 2012|\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
         [TechTalk.SpecRun.TestRunCleanup()]
         public virtual void TestRunCleanup()
         {

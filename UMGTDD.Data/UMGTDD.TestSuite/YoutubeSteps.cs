@@ -34,5 +34,36 @@ namespace UMGTDD.TestSuite
         {
             Assert.AreEqual(artists[1], expectedResult);
         }
+
+        [Then(@"the December_resultcount should be (.*)")]
+        public void ThenTheDecember_ResultcountShouldBe(int resultCount)
+        {
+            Assert.AreEqual(artists.Count, resultCount);
+        }
+
+        [Then(@"the firstdecemeberresult should be ""(.*)""")]
+        public void ThenTheFirstdecemeberresultShouldBe(string expectedResult)
+        {
+            Assert.AreEqual(artists[0], expectedResult);
+        }
+
+        [Then(@"the seconddecemeberresult should be ""(.*)""")]
+        public void ThenTheSeconddecemeberresultShouldBe(string expectedResult)
+        {
+            Assert.AreEqual(artists[1], expectedResult);
+        }
+
+        [Then(@"the thirddecemeberresult should be ""(.*)""")]
+        public void ThenTheThirddecemeberresultShouldBe(string expectedResult)
+        {
+            Assert.AreEqual(artists[2], expectedResult);
+        }
+
+        [Then(@"the fourthdecemeberresult should be ""(.*)""")]
+        public void ThenTheFourthdecemeberresultShouldBe(string expectedResult)
+        {
+            Assert.AreEqual(artists[3], expectedResult);
+        }
+
     }
 }

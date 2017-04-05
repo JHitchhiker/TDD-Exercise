@@ -1,0 +1,43 @@
+﻿VS filter: testpath:TestAssembly:UMGTDD.TestSuite/Feature:Youtube/Scenario:YouTube%c2%a01st%c2%a0April%c2%a02012
+Discovering target: Default
+Discovering tests from assembly: D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UMGTDD.TestSuite/Default - 
+#1: Default - 
+#2: UMGTDD.TestSuite - 
+#11: Youtube - 
+#12: YouTube 1st April 2012 - TestAssembly:UMGTDD.TestSuite/Feature:Youtube/Scenario:YouTube%c2%a01st%c2%a0April%c2%a02012
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UMGTDD.TestSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jaiho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given 'YouTube 1st April 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 1st April...") (0.0s)
+Thread#0:B:Then the youtube_resultcount should be 2
+Thread#0:T:done: YoutubeSteps.ThenTheYoutube_ResultcountShouldBe(2) (0.0s)
+Thread#0:B:And the youtube_firstresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:done: YoutubeSteps.ThenTheYoutube_FirstresultShouldBe("Monkey Claw|Motor...") (0.0s)
+Thread#0:B:And the youtube_secondresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:done: YoutubeSteps.ThenTheYoutube_SecondresultShouldBe("Tinie Tempah|Fris...") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 0.1714688 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

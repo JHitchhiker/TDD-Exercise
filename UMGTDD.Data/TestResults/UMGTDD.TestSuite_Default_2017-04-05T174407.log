@@ -1,0 +1,88 @@
+﻿VS filter: testpath:TestAssembly:UMGTDD.TestSuite/Feature:Youtube/Scenario:YouTube+27th+Dec+2012
+Discovering target: Default
+Discovering tests from assembly: D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UMGTDD.TestSuite/Default - 
+#1: Default - 
+#2: UMGTDD.TestSuite - 
+#11: Youtube - 
+#13: YouTube 27th Dec 2012 - TestAssembly:UMGTDD.TestSuite/Feature:Youtube/Scenario:YouTube+27th+Dec+2012
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #13 from normal test queue 
+Thread#0:Scheduler: considering testitem #13 for thread
+Thread#0:Scheduler: using testitem #13 for thread
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UMGTDD.TestSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jaiho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #13/0 is started on thread #0
+Thread#0:B:Given 'YouTube 27th Dec 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 27th Dec ...") (0.0s)
+Thread#0:B:Then the December_resultcount should be 2
+Thread#0:T:error: Assert.AreEqual failed. Expected:<4>. Actual:<2>. 
+Thread#0:B:And the firstdecemeberresult should be "Monkey Claw|Christmas Special|streaming|25th Dec 2012|31st Dec 2012"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the seconddecemeberresult should be "Monkey Claw|Iron Horse|streaming|1st Jun 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the thirddecemeberresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the fourthdecemeberresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #13
+Thread#0:Scheduler: considering testitem #13 for thread
+Thread#0:Scheduler: using testitem #13 for thread
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #13/0 is finished on thread #0 as Failed within 0.1614369 seconds
+Thread#0: Test #13/1 is started on thread #0
+Thread#0:B:Given 'YouTube 27th Dec 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 27th Dec ...") (0.0s)
+Thread#0:B:Then the December_resultcount should be 2
+Thread#0:T:error: Assert.AreEqual failed. Expected:<4>. Actual:<2>. 
+Thread#0:B:And the firstdecemeberresult should be "Monkey Claw|Christmas Special|streaming|25th Dec 2012|31st Dec 2012"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the seconddecemeberresult should be "Monkey Claw|Iron Horse|streaming|1st Jun 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the thirddecemeberresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the fourthdecemeberresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #13
+Thread#0:Scheduler: considering testitem #13 for thread
+Thread#0:Scheduler: using testitem #13 for thread
+Thread#0:Scheduler: Test #13 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #13/1 is finished on thread #0 as Failed within 0.0080189 seconds
+Thread#0: Test #13/2 is started on thread #0
+Thread#0:B:Given 'YouTube 27th Dec 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 27th Dec ...") (0.0s)
+Thread#0:B:Then the December_resultcount should be 2
+Thread#0:T:error: Assert.AreEqual failed. Expected:<4>. Actual:<2>. 
+Thread#0:B:And the firstdecemeberresult should be "Monkey Claw|Christmas Special|streaming|25th Dec 2012|31st Dec 2012"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the seconddecemeberresult should be "Monkey Claw|Iron Horse|streaming|1st Jun 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the thirddecemeberresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the fourthdecemeberresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #13/2 is finished on thread #0 as Failed within 0.0226908 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

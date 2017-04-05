@@ -1,0 +1,12 @@
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Console.exe.config
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Console.exe
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Console.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Service.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.DAL.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Data.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Service.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.DAL.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Data.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\obj\Debug\UMGTDD.ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\obj\Debug\UMGTDD.Console.exe
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\obj\Debug\UMGTDD.Console.pdb

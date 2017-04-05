@@ -1,0 +1,5 @@
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.Service.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\bin\Debug\UMGTDD.Service.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\obj\Debug\UMGTDD.Service.csprojResolveAssemblyReference.cache
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\obj\Debug\UMGTDD.Service.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Service\obj\Debug\UMGTDD.Service.pdb

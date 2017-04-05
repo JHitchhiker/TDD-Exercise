@@ -14,3 +14,5 @@ D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.DAL.dll
 D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.DAL.pdb
 D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.Data.dll
 D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.Data.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.Service.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.Service.pdb

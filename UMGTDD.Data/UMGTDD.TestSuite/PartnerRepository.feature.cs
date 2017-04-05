@@ -17,22 +17,22 @@ namespace UMGTDD.TestSuite
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("ITunes_Feature", Description="\tIn order to trace Partner Data\r\n\tAs an end-user\r\n\tI need to have a data model to" +
-        " store data in", SourceFile="SpecFlowFeature1.feature", SourceLine=0)]
-    public partial class ITunes_FeatureFeature
+    [TechTalk.SpecRun.FeatureAttribute("Partner_Repository", Description="\tIn order to trace Partner Data\r\n\tAs an end-user\r\n\tI need to read a file with Par" +
+        "tner Information\r\n\tAnd Return the partner Usage", SourceFile="PartnerRepository.feature", SourceLine=0)]
+    public partial class Partner_RepositoryFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "SpecFlowFeature1.feature"
+#line 1 "PartnerRepository.feature"
 #line hidden
         
         [TechTalk.SpecRun.FeatureInitialize()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ITunes_Feature", "\tIn order to trace Partner Data\r\n\tAs an end-user\r\n\tI need to have a data model to" +
-                    " store data in", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Partner_Repository", "\tIn order to trace Partner Data\r\n\tAs an end-user\r\n\tI need to read a file with Par" +
+                    "tner Information\r\n\tAnd Return the partner Usage", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -64,18 +64,18 @@ namespace UMGTDD.TestSuite
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Get ITunes", new string[] {
-                "mytag"}, SourceLine=6)]
+                "mytag"}, SourceLine=7)]
         public virtual void GetITunes()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get ITunes", new string[] {
                         "mytag"});
-#line 7
-this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.Given("I have a textfile \"d:\\partners.txt\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 9
- testRunner.When("the user enters \'ITunes 1st March 2012\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.Given("I have a textfile \"d:\\partners.txt\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
+ testRunner.When("the user enters \'ITunes\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
  testRunner.Then("the result should be \"digital download\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

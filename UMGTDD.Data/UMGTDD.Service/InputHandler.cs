@@ -12,7 +12,7 @@ namespace UMGTDD.Service
         {
             List<string> commandParts = new List<string>();
             commandParts.Add(command.Substring(0, command.IndexOf(" ")));
-            commandParts.Add(command.Substring(command.IndexOf(" ")));
+            commandParts.Add(command.Substring(command.IndexOf(" ")));  
         }
     }
 }

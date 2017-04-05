@@ -68,7 +68,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
     </Compile>
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +96,10 @@
     <ProjectReference Include="..\UMGTDD.Data\UMGTDD.Data.csproj">
       <Project>{F19AC904-9C70-4532-8A55-BF239025EA81}</Project>
       <Name>UMGTDD.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UMGTDD.Service\UMGTDD.Service.csproj">
+      <Project>{E749750A-86EF-4633-B948-764E219431E7}</Project>
+      <Name>UMGTDD.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -1,11 +1,13 @@
-﻿Feature: ITunes_Feature
+﻿Feature: Partner_Repository
 	In order to trace Partner Data
 	As an end-user
-	I need to have a data model to store data in
+	I need to read a file with Partner Information
+	And Return the partner Usage
 
 @mytag
 Scenario: Get ITunes
 	Given I have a textfile "d:\partners.txt"
-	When the user enters 'ITunes 1st March 2012' 
+	When the user enters 'ITunes' 
 	Then the result should be "digital download"
+	
 	

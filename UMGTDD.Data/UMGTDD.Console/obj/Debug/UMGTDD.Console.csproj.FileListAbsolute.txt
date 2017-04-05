@@ -1,0 +1,5 @@
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Console.exe.config
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Console.exe
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\bin\Debug\UMGTDD.Console.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\obj\Debug\UMGTDD.Console.exe
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.Console\obj\Debug\UMGTDD.Console.pdb

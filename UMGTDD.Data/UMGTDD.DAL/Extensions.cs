@@ -16,7 +16,7 @@ namespace UMGTDD.DAL
             {
                 var partner = new DistributionPartner();
                 partner.Name = record.Split('|')[0];
-                partner.Name = record.Split('|')[1];
+                partner.Usage = record.Split('|')[1];
                 result.Add(partner);
             }
             return result;

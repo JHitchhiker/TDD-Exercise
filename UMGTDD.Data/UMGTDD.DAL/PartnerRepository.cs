@@ -31,7 +31,7 @@ namespace UMGTDD.DAL
         public string GetPartnerUsage(string partnerName)
         {
             var result = GetPartner(partnerName);
-            return result.Usage;
+            return result.Usage.Trim();
         }
 
         public List<DistributionPartner> GetPartnerByUsage(string usage)

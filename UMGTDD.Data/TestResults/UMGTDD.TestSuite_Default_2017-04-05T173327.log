@@ -1,0 +1,159 @@
+﻿Discovering target: Default
+Discovering tests from assembly: D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+Appdomain Disposed
+Test Suite Dump
+#0: UMGTDD.TestSuite/Default - 
+#1: Default - 
+#2: UMGTDD.TestSuite - 
+#3: ArtistRepository - 
+#6: ConsoleCommandHandler - 
+#8: Partner_Repository - 
+#11: Youtube - 
+#4: Get Artist By Song - TestAssembly:UMGTDD.TestSuite/Feature:ArtistRepository/Scenario:Get+Artist+By+Song
+#5: Get Artist By Usage - TestAssembly:UMGTDD.TestSuite/Feature:ArtistRepository/Scenario:Get+Artist+By+Usage
+#7: ITunes 1st March 2012 - TestAssembly:UMGTDD.TestSuite/Feature:ConsoleCommandHandler/Scenario:ITunes%c2%a01st%c2%a0March%c2%a02012
+#9: Get ITunes - TestAssembly:UMGTDD.TestSuite/Feature:Partner_Repository/Scenario:Get+ITunes
+#10: Get Digital Download - TestAssembly:UMGTDD.TestSuite/Feature:Partner_Repository/Scenario:Get+Digital+Download
+#12: YouTube 1st April 2012 - TestAssembly:UMGTDD.TestSuite/Feature:Youtube/Scenario:YouTube%c2%a01st%c2%a0April%c2%a02012
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for UMGTDD.TestSuite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\jaiho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I have a textfile with artists "d:\musicartists.txt"
+Thread#0:T:done: ArtistRepositorySteps.GivenIHaveATextfileWithArtists("d:\musicartists.txt") (0.0s)
+Thread#0:B:When I enter song "Motor Mouth"
+Thread#0:T:done: ArtistRepositorySteps.WhenIEnterSong("Motor Mouth") (0.0s)
+Thread#0:B:Then the artist should be "Monkey Claw"
+Thread#0:T:done: ArtistRepositorySteps.ThenTheArtistShouldBe("Monkey Claw") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.2135669 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have a textfile with artists "d:\musicartists.txt"
+Thread#0:T:done: ArtistRepositorySteps.GivenIHaveATextfileWithArtists("d:\musicartists.txt") (0.0s)
+Thread#0:B:When I enter usage "digital download"
+Thread#0:T:done: ArtistRepositorySteps.WhenIEnterUsage("digital download") (0.0s)
+Thread#0:B:Then the artist count should be 6
+Thread#0:T:done: ArtistRepositorySteps.ThenTheArtistCountShouldBe(6) (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.010059 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have entered 'ITunes 1st March 2012' into the console
+Thread#0:T:done: ConsoleCommandHandlerSteps.GivenIHaveEnteredIntoTheConsole("ITunes 1st March ...") (0.0s)
+Thread#0:B:Then the resultcount should be 4
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheResultcountShouldBe(4) (0.0s)
+Thread#0:B:And the first result should be "Monkey Claw|Black Mountain|digital download|1st Feb 2012|"
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheFirstResultShouldBe("Monkey Claw|Black...") (0.0s)
+Thread#0:B:And the second result should be "Monkey Claw|Motor Mouth|digital download|1st Mar 2011|"
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheSecondResultShouldBe("Monkey Claw|Motor...") (0.0s)
+Thread#0:B:And the third result should be "Tinie Tempah|Frisky (Live from SoHo)|digital download|1st Feb 2012|"
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheThirdResultShouldBe("Tinie Tempah|Fris...") (0.0s)
+Thread#0:B:And the fourth result should be "Tinie Tempah|Miami 2 Ibiza|digital download|1st Feb 2012|"
+Thread#0:T:done: ConsoleCommandHandlerSteps.ThenTheFourthResultShouldBe("Tinie Tempah|Miam...") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread
+Thread#0:Scheduler: using testitem #9 for thread
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.0230285 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given I have a textfile with partners "d:\partners.txt"
+Thread#0:T:done: PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners("d:\partners.txt") (0.0s)
+Thread#0:B:When the user enters partner 'ITunes'
+Thread#0:T:done: PartnerRepository_FeatureSteps.WhenTheUserEntersITunes("ITunes") (0.0s)
+Thread#0:B:Then the result should be "digital download"
+Thread#0:T:done: PartnerRepository_FeatureSteps.ThenTheResultShouldBe("digital download") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread
+Thread#0:Scheduler: using testitem #10 for thread
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0.0059804 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given I have a textfile with partners "d:\partners.txt"
+Thread#0:T:done: PartnerRepository_FeatureSteps.GivenIHaveATextfileWithPartners("d:\partners.txt") (0.0s)
+Thread#0:B:When the user enters partner usage 'digital download'
+Thread#0:T:done: PartnerRepository_FeatureSteps.WhenTheUserEntersPartnerUsage("digital download") (0.0s)
+Thread#0:B:Then the partner should be "ITunes"
+Thread#0:T:done: PartnerRepository_FeatureSteps.ThenThePartnerShouldBe("ITunes") (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0.0040106 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:B:Given 'YouTube 1st April 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 1st April...") (0.0s)
+Thread#0:B:Then the youtube_resultcount should be 2
+Thread#0:T:error: Assert.AreEqual failed. Expected:<0>. Actual:<2>. 
+Thread#0:B:And the youtube_firstresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the youtube_secondresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #12
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #12/0 is finished on thread #0 as Failed within 0.0180499 seconds
+Thread#0: Test #12/1 is started on thread #0
+Thread#0:B:Given 'YouTube 1st April 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 1st April...") (0.0s)
+Thread#0:B:Then the youtube_resultcount should be 2
+Thread#0:T:error: Assert.AreEqual failed. Expected:<0>. Actual:<2>. 
+Thread#0:B:And the youtube_firstresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the youtube_secondresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #12
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #12/1 is finished on thread #0 as Failed within 0.0055147 seconds
+Thread#0: Test #12/2 is started on thread #0
+Thread#0:B:Given 'YouTube 1st April 2012' was entered into the console
+Thread#0:T:done: YoutubeSteps.GivenWasEnteredIntoTheConsole("YouTube 1st April...") (0.0s)
+Thread#0:B:Then the youtube_resultcount should be 2
+Thread#0:T:error: Assert.AreEqual failed. Expected:<0>. Actual:<2>. 
+Thread#0:B:And the youtube_firstresult should be "Monkey Claw|Motor Mouth|streaming|1st Mar 2011|"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And the youtube_secondresult should be "Tinie Tempah|Frisky (Live from SoHo)|streaming|1st Feb 2012|"
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #12/2 is finished on thread #0 as Failed within 0.0072083 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 6 (test executions: 8)
+Succeeded: 5
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

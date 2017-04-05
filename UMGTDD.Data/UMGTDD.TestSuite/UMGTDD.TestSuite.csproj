@@ -81,6 +81,12 @@
       <DependentUpon>PartnerRepository.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Youtube.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Youtube.feature</DependentUpon>
+    </Compile>
+    <Compile Include="YoutubeSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -106,6 +112,10 @@
     </None>
     <None Include="SpecRunTestProfile_2011_09.xsd">
       <SubType>Designer</SubType>
+    </None>
+    <None Include="Youtube.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Youtube.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

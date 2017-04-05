@@ -1,0 +1,16 @@
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\Default.srprofile
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll.config
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.TestSuite.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\SpecRun.SpecFlowPlugin.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\TechTalk.SpecFlow.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\TechTalk.SpecRun.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\obj\Debug\UMGTDD.TestSuite.csprojResolveAssemblyReference.cache
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\obj\Debug\UMGTDD.TestSuite.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\obj\Debug\UMGTDD.TestSuite.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.DAL.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.DAL.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.Data.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.TestSuite\bin\Debug\UMGTDD.Data.pdb

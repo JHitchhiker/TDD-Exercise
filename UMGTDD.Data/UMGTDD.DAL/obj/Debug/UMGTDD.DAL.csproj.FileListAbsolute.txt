@@ -1,0 +1,7 @@
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\bin\Debug\UMGTDD.DAL.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\bin\Debug\UMGTDD.DAL.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\obj\Debug\UMGTDD.DAL.csprojResolveAssemblyReference.cache
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\obj\Debug\UMGTDD.DAL.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\obj\Debug\UMGTDD.DAL.pdb
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\bin\Debug\UMGTDD.Data.dll
+D:\Dev\UMG_Test\UMG\UMGTDD.Data\UMGTDD.DAL\bin\Debug\UMGTDD.Data.pdb
